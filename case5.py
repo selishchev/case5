@@ -3,7 +3,7 @@ Developers:
 Selishchev A., Paymushkin K., Krivosheenkova E.
 """
 
-import urllib
+import urllib.request
 
 with open('input.txt') as f_in:
     with open('output.txt', 'w') as f_out:
