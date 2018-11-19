@@ -7,6 +7,9 @@ import urllib.request
 
 with open('input.txt') as f_in:
     with open('output.txt', 'w') as f_out:
+        f_out.write('{:<17} {:<6} {:<6} {:<6} {:<6} {:<6} {} {}'.format('Name', 'Comp', 'ATT', 'YDS', 'TD', 'INT', 'PR', '\n'))
+        f_out.write('=' * 58)
+        f_out.write('\n')
         for line in f_in:
             line = line.strip()
             url = line
@@ -15,7 +18,7 @@ with open('input.txt') as f_in:
             text = str(s)
             part_name = text.find("player-name")
             name = text[text.find('>', part_name)+1:text.find('&', part_name)]
-            f_out.write(name)
+            f_out.write('{0:<18}'.format(name))
             part_total = text.find("player-totals")
             total = text[text.find('TOTAL', part_total)+10:text.find('</tr>', part_total)]
             value1 = total.replace('\\', '')
@@ -25,9 +28,11 @@ with open('input.txt') as f_in:
             value5 = value4.replace('n', '')
             value6 = value5.strip(',')
             value = value6.split(',')
-            f_out.write('{} {}'.format('Comp:', value[0]))
-            f_out.write('{} {}'.format('ATT:', value[1]))
-            f_out.write('{} {}'.format('YDS:', value[3]))
-            f_out.write('{} {}'.format('TD:', value[5]))
-            f_out.write('{} {}'.format('INT:', value[6]))
-            f_out.write('{} {}'.format('PR:', value[10]))
+
+            f_out.write('{:<7}'.format(value[0]))
+            f_out.write('{:<7}'.format(value[1]))
+            f_out.write('{:<7}'.format(value[3]))
+            f_out.write('{:<7}'.format(value[5]))
+            f_out.write('{:<7}'.format(value[6]))
+            f_out.write('{:<7.2f} {}'.format(float(value[10]), '\n'))
+
