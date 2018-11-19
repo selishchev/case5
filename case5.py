@@ -7,8 +7,8 @@ import urllib.request
 
 with open('input.txt') as f_in:
     with open('output.txt', 'w') as f_out:
-        f_out.write('{:<17} {:<6} {:<6} {:<6} {:<6} {:<6} {} {}'.format('Name', 'Comp', 'ATT', 'YDS', 'TD', 'INT', 'PR', '\n'))
-        f_out.write('=' * 58)
+        f_out.write('{:<19} {:<6} {:<6} {:<6} {:<6} {:<6} {} {}'.format('Name', 'Comp', 'ATT', 'YDS', 'TD', 'INT', 'PR', '\n'))
+        f_out.write('=' * 60)
         f_out.write('\n')
         for line in f_in:
             line = line.strip()
@@ -18,7 +18,7 @@ with open('input.txt') as f_in:
             text = str(s)
             part_name = text.find("player-name")
             name = text[text.find('>', part_name)+1:text.find('&', part_name)]
-            f_out.write('{0:<18}'.format(name))
+            f_out.write('{0:<20}'.format(name))
             part_total = text.find("player-totals")
             total = text[text.find('TOTAL', part_total)+10:text.find('</tr>', part_total)]
             value1 = total.replace('\\', '')

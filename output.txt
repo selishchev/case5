@@ -1,24 +1,24 @@
-Name              Comp   ATT    YDS    TD     INT    PR 
-==========================================================
-Bryce Petty       130    245    1      5.5    4      57.70   
-Jimmy Garoppolo   236    361    2      8.2    17     97.30   
-Matt Moore        586    983    6      7.1    45     81.20   
-AJ McCarron       87     136    928    6      2      15.00   
-Ryan Mallett      190    345    1      5.3    9      66.80   
-Landry Jones      108    169    1      7.8    8      86.20   
-Robert Griffin III766    1      63.3   983    7.4    856.00  
-Alex Tanney       10     14     99     1      0      0.00    
-Tom Savage        181    315    2      6.3    5      72.50   
-Scott Tolzien     88     146    1      7.3    2      61.60   
-Mark Sanchez      1      295    285    15     219    161.00  
-Kellen Clemens    350    638    4      6.4    16     68.90   
-Ryan Nassib       9      10     128    1      0      2.00    
-Dan Orlovsky      298    512    3      6.1    15     75.30   
-Teddy Bridgewater 551    852    6      7.2    28     86.20   
-Brian Hoyer       838    1      59.4   902    7.0    571.00  
-Matt Schaub       2      098    281    24     887    178.00  
-Derek Anderson    909    1      54.3   878    6.5    563.00  
-Luke McCown       216    356    2      6.7    9      71.30   
-Matt Barkley      174    291    2      7.4    10     68.30   
-Thad Lewis        115    189    1      6.9    5      81.40   
-Sean Mannion      31     50     235    0      1      13.00   
+Name                Comp   ATT    YDS    TD     INT    PR 
+============================================================
+Bryce Petty         130    245    1      5.5    4      57.70   
+Jimmy Garoppolo     236    361    2      8.2    17     97.30   
+Matt Moore          586    983    6      7.1    45     81.20   
+AJ McCarron         87     136    928    6      2      15.00   
+Ryan Mallett        190    345    1      5.3    9      66.80   
+Landry Jones        108    169    1      7.8    8      86.20   
+Robert Griffin III  766    1      63.3   983    7.4    856.00  
+Alex Tanney         10     14     99     1      0      0.00    
+Tom Savage          181    315    2      6.3    5      72.50   
+Scott Tolzien       88     146    1      7.3    2      61.60   
+Mark Sanchez        1      295    285    15     219    161.00  
+Kellen Clemens      350    638    4      6.4    16     68.90   
+Ryan Nassib         9      10     128    1      0      2.00    
+Dan Orlovsky        298    512    3      6.1    15     75.30   
+Teddy Bridgewater   551    852    6      7.2    28     86.20   
+Brian Hoyer         838    1      59.4   902    7.0    571.00  
+Matt Schaub         2      098    281    24     887    178.00  
+Derek Anderson      909    1      54.3   878    6.5    563.00  
+Luke McCown         216    356    2      6.7    9      71.30   
+Matt Barkley        174    291    2      7.4    10     68.30   
+Thad Lewis          115    189    1      6.9    5      81.40   
+Sean Mannion        31     50     235    0      1      13.00   
